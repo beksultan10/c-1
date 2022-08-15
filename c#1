@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //string fName = "seriy";
+            //string mName = "Beks";
+
+            //Console.WriteLine(fName);
+            //Console.WriteLine(mName);
+
+            Console.Write("введите фио : ");
+            string Username = Console.ReadLine();
+
+            Console.Write("введите возраст : ");
+            string Userage = Console.ReadLine();
+
+            int currentAge = 2022;
+            int Userage_ = Convert.ToInt32(Userage);
+
+            int avalAge = currentAge - Userage_;
+
+            if (avalAge >= 18) {
+                Console.WriteLine("здравствуй " + Username + "!");
+            }
+            else{
+                Console.WriteLine("здравствуй ты слишком молод");
+            }
+        }
+    }
+}
