@@ -1,0 +1,142 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+
+        {
+
+            //Console.Write("введите число 1 ")
+            //;
+            //string first_number = Console.ReadLine()
+            //;
+
+            //Console.WriteLine()
+            //;
+            //Console.Write("введите число 2 ")
+            //;
+            //string second_number = Console.ReadLine()
+            //;
+
+            //int all = 0;
+            //int all2 = 0;
+
+            //foreach (var item in first_number)
+
+            //{
+            //    int number1 = Convert.ToInt32(item.ToString())
+
+            // ;
+            //    all += number1;
+
+            //}
+
+            //Console.WriteLine(all)
+            //;
+
+            //foreach (char item in second_number)
+
+            //{
+            //    int number2 = Convert.ToInt32(item)
+            //;
+            //    all2 += number2;
+            //}
+            //Console.WriteLine(all2)
+            //;
+
+
+
+        }
+            //static void exmpl01()
+            //{
+            //    string text = Console.ReadLine();
+
+            //    string[] txtArr = text.Split(' ');
+
+            //    int k = 0;
+
+            //    string[] letterArr = new string[txtArr.Length];
+
+            //    foreach (var item in txtArr)
+            //    {
+            //        string fLetter = item[0].ToString();
+            //        letterArr[k++] = fLetter;
+            //    }
+
+            //    foreach (var item in letterArr)
+            //    {
+            //        int l = 0;
+            //        Console.WriteLine("буква " + item + ": ");
+            //        for(int i = 0; i < letterArr.Length; i++)
+            //        {
+            //            if(letterArr[i] == item)
+            //            {
+            //                l++;
+            //            }
+            //        }
+            //    }
+            //}
+
+            //static void exmpl02()
+            //{
+            //    string text = Console.ReadLine();
+
+            //    string[] textArr = text.Split(' ');
+
+            //    foreach(var item in textArr)
+            //    {
+            //        int num = 0;
+            //        if (Int32.TryParse(item, out num))
+            //            Console.WriteLine();
+            //    }
+            //}
+
+            //static void exmpl03()
+            //{
+            //    string text = Console.ReadLine();
+
+            //    if (text.Contains("one"))
+            //    {
+            //        Console.WriteLine("содержится");
+            //    }
+            //    else
+            //    {
+
+            //    }
+            //}
+
+        //static void exmpl04()
+        //{
+        //    string slovo = "класс  cegget tesst";
+
+        //    for(int i = 0; i < slovo.Length - 1; i++)
+        //    {
+        //        if(slovo[i] == slovo[i + 1])
+        //        {
+        //            string letter = slovo[i].ToString();
+        //            slovo = slovo.Replace(letter, "1");
+        //        }
+        //    }
+            
+        //}
+
+      static void exmpl05()
+        {
+            string s = Console.ReadLine();
+            string[] words = s.Split(' ');
+            Console.WriteLine(words.Length);
+            foreach (string word in words)
+            {
+                Console.WriteLine(word);
+            }
+        }
+
+
+    }
+}
